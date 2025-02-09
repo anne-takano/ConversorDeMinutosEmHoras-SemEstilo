@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Conversor de Minutos em Horas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Conversor de Minutos para Horas</h1>
+    <p>Digite o valor que você deseja converter:</p>
+    <input type="number" id="minutosInput" placeholder="Digite os minutos" />
+
+    <button onclick="converterMinutos()">Converter</button>
+    <button onclick="reiniciarConversao()" id="reiniciar" disabled>
+      Nova Conversão
+    </button>
+
+    <p id="resultado"></p>
+    <script src="./index.js"></script>
+  </body>
+</html>
